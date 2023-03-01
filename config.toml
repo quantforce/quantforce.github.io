@@ -1,4 +1,6 @@
 baseURL = 'http://www.quantforce.com/'
 languageCode = 'en-us'
 title = 'Quantforce'
-theme = 'ananke'
+#theme = 'ananke'
+# init hugo module system first by running: hugo mod init github.com/quantforce/quantforce.github.io
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
